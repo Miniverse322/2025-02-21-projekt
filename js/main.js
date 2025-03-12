@@ -17,7 +17,7 @@ buttonDiv.appendChild(btnShowWeather);
 
 let inputDiv = document.createElement('div');
 let inputTextField = document.createElement('input');
-inputTextField.readOnly = true;
+// inputTextField.readOnly = true;
 inputTextField.id = 'cityInput';
 inputTextField.style.margin = "7px";
 body.appendChild(inputDiv);
